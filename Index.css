@@ -1,0 +1,46 @@
+body {color: rgb(0, 0, 0);
+      background-color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: -webkit-image-set(url(img/Lineargradient2-660x322.png));
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-weight: bold
+}
+
+ul { 
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px;
+
+}
+
+a { 
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header img {
+    width: 340px;
+    height: 310px;
+    border-radius: 50%;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.center {
+    text-align: center;
+}
+header {
+    text-align: center;
+}
+
+main img {
+    width: 340px;
+    height: 310px;
+    border-radius: 50%;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+nav a:hover {
+    color: green;
+}
